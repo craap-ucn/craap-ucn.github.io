@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Centro de recursos de aprendizaje y acompañamientos pedagógicos UCN, seccion estudiantes">
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="icon" href="/assets/img/favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -15,7 +16,7 @@
         <!-- Presentation's banner -->
         <div class="flex items-center justify-center lg:justify-start min-h-[400px] text-4xl " style="background-image: url('/assets/img/banners/Banner3_1.jpg'); background-repeat: no-repeat; background-size: cover;">
             <div class="flex flex-row items-center justify-center py-9 px-8 lg:ml-32 text-white">
-                <img src="../assets/img/svg/student.svg" alt="Students" class="w-[160px] h-[160px]">
+                <img src="../assets/img/svg/student.svg" alt="Estudiantes" class="w-[160px] h-[160px]">
                 <h3 class="font-semibold text-3xl ml-6">ESTUDIANTES</h3>
             </div>
         </div>
@@ -24,7 +25,7 @@
         <div class="flex flex-col lg:flex-row justify-center mb-24" style="background-color: #f7f6ee;">
             <div class="w-full lg:w-1/2 mb-10 pt-24 lg:mb-0 lg:py-24 lg:pl-10">
                 <div class="relative" style="padding-top: 56.25%;">
-                    <iframe class="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/j9PWOwsJBVU" frameborder="0" allowfullscreen></iframe>
+                    <iframe title="presentacionAdmisionEspecial" class="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/j9PWOwsJBVU" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="flex justify-center w-full lg:w-1/2">
@@ -62,34 +63,34 @@
         
         <!-- Proofs -->
         <div class="grid lg:grid-cols-6 mb-24">
-            <button class="bg-gray-hard-custom py-14 px-8 hover:bg-blue-ucn-header transition duration-500 text-white ">
+            <button class="bg-gray-hard-custom py-14 px-8 hover:bg-blue-ucn-header transition duration-500 text-white" aria-labelledby="tutorias">
                 <div class="flex justify-center items-center text-center h-full">
-                    <h3 class="text-xl font-bold whitespace-nowrap">Tutorias</h3>
+                    <h3 id="tutorias" class="text-xl font-bold whitespace-nowrap">Tutorias</h3>
                 </div>
             </button>
-            <button class="bg-gray-light-custom py-14 px-8 hover:bg-blue-ucn-header transition duration-500 text-[#808080] hover:text-white">
+            <button class="bg-gray-light-custom py-14 px-8 hover:bg-blue-ucn-header transition duration-500 text-[#808080] hover:text-white" aria-labelledby="evaluacion-neuropsicologica">
                 <div class="flex justify-center items-center text-center h-full">
-                    <h3 class="text-xl font-bold whitespace-nowrap">Evaluación <br> Neuropsicológica</h3>    
+                    <h3 id="evaluacion-neuropsicologica" class="text-xl font-bold whitespace-nowrap">Evaluación <br> Neuropsicológica</h3>    
                 </div>
             </button>
-            <button class="bg-gray-hard-custom py-14 px-8 hover:bg-blue-ucn-header transition duration-500 text-white">
+            <button class="bg-gray-hard-custom py-14 px-8 hover:bg-blue-ucn-header transition duration-500 text-white" aria-labelledby="acompañamiento-psicologico">
                 <div class="flex justify-center items-center text-center h-full">
-                    <h3 class="text-xl font-bold whitespace-nowrap">Acompañamiento <br> Psicológico</h3>
+                    <h3 id="acompañamiento-psicologico" class="text-xl font-bold whitespace-nowrap">Acompañamiento <br> Psicológico</h3>
                 </div>
             </button>
-            <button class="bg-gray-light-custom py-14 px-8 hover:bg-blue-ucn-header transition duration-500 text-[#808080] hover:text-white">
+            <button class="bg-gray-light-custom py-14 px-8 hover:bg-blue-ucn-header transition duration-500 text-[#808080] hover:text-white" aria-labelledby="acompañamiento-pedagogico">
                 <div class="flex justify-center items-center text-center h-full">
-                    <h3 class="text-xl font-bold whitespace-nowrap">Acompañamiento <br> Pedagógico</h3>
+                    <h3 id="acompañamiento-pedagogico" class="text-xl font-bold whitespace-nowrap">Acompañamiento <br> Pedagógico</h3>
                 </div>
             </button>
-            <button class="bg-gray-hard-custom py-14 px-8 hover:bg-blue-ucn-header transition duration-500 text-white">
+            <button class="bg-gray-hard-custom py-14 px-8 hover:bg-blue-ucn-header transition duration-500 text-white" aria-labelledby="acompañamiento-psicoeducativo">
                 <div class="flex justify-center items-center text-center h-full">
-                    <h3 class="text-xl font-bold whitespace-nowrap">Acompañamiento <br> Psicoeducativo</h3>    
+                    <h3 id="acompañamiento-psicoeducativo" class="text-xl font-bold whitespace-nowrap">Acompañamiento <br> Psicoeducativo</h3>    
                 </div>
             </button>
-            <button class="bg-gray-light-custom py-14 px-8 hover:bg-blue-ucn-header transition duration-500 text-[#808080] hover:text-white">
+            <button class="bg-gray-light-custom py-14 px-8 hover:bg-blue-ucn-header transition duration-500 text-[#808080] hover:text-white" aria-labelledby="orientacion-asistentes">
                 <div class="flex justify-center items-center text-center h-full">
-                    <h3 class="text-xl font-bold whitespace-nowrap">Orientación <br> Asistentes sociales</h3>
+                    <h3 id="orientacion-asistentes" class="text-xl font-bold whitespace-nowrap">Orientación <br> Asistentes sociales</h3>
                 </div>
             </button>
         </div>

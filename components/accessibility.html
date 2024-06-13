@@ -1,16 +1,16 @@
-<button id="accessibilityBtn" class="bg-blue-500 text-white p-4 rounded-full" style="position: fixed; bottom: 20px; right: 20px;">
-    <img src="../assets/img/svg/accessibility.svg" class="w-14 invert">
+<button id="accessibilityBtn" aria-label="Accesibilidad" class="bg-blue-500 text-white p-4 rounded-full" style="position: fixed; bottom: 20px; right: 20px;">
+    <img src="../assets/img/svg/accessibility.svg" class="w-14 invert" alt="Accesibilidad">
 </button>
 <div id="accessibilityMenu" class="text-2xl hidden bg-white border border-gray-300 p-4 rounded-lg shadow-lg mt-12 z-50" style="position: fixed; bottom: 120px; right: 20px;">
     <div class="flex justify-between items-center mb-2">
         <h2 class="text-3xl font-bold">Accesibilidad</h2>
-        <button id="closeAccessibilityMenu" class="text-gray-600 text-4xl hover:text-gray-900">&times;</button>
+        <button id="closeAccessibilityMenu" aria-label="Cerrar menú accesibilidad" class="text-gray-600 text-4xl hover:text-gray-900">&times;</button>
     </div>
     <div class="mb-4">
         <h3 class="text-md font-semibold mb-1">Tamaño de letra</h3>
         <div class="flex justify-between">
-            <button id="resetFontSize" class="bg-gray-200 px-4 py-2 rounded mr-2 flex items-center justify-center">
-                <img src="../assets/img/svg/forbidden.svg" class="w-6 h-6">
+            <button id="resetFontSize" aria-label="Fuente por defecto" class="bg-gray-200 px-4 py-2 rounded mr-2 flex items-center justify-center">
+                <img src="../assets/img/svg/forbidden.svg" class="w-6 h-6" alt="Por defecto">
             </button>
             <button class="font-size-btn bg-gray-200 px-4 py-2 rounded mr-2" data-size="text-lg">+</button>
             <button class="font-size-btn bg-gray-200 px-4 py-2 rounded mr-2" data-size="text-xl">++</button>
@@ -21,11 +21,11 @@
         <h3 class="text-md font-semibold mb-1">Modo oscuro</h3>
         <div class="flex justify-center">
             <div class="flex justify-between">
-                <button id="resetDarkMode" class="bg-gray-200 px-4 py-2 rounded mr-2 flex items-center justify-center">
-                    <img src="../assets/img/svg/light-mode.svg" class="w-6 h-6">
+                <button id="resetDarkMode" aria-label="Modo claro" class="bg-gray-200 px-4 py-2 rounded mr-2 flex items-center justify-center">
+                    <img src="../assets/img/svg/light-mode.svg" class="w-6 h-6" alt="Modo claro">
                 </button>
-                <button id="darkModeToggle" class="bg-gray-200 px-4 py-2 rounded">
-                    <img src="../assets/img/svg/dark-mode.svg" class="w-6 h-6">
+                <button id="darkModeToggle" aria-label="Modo oscuro" class="bg-gray-200 px-4 py-2 rounded">
+                    <img src="../assets/img/svg/dark-mode.svg" class="w-6 h-6" alt="Modo oscuro">
                 </button>
             </div>
         </div>
