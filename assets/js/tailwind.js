@@ -7,6 +7,10 @@ tailwind.config = {
                 'blue-ucn-footer': '#23405B',
                 'gray-hard-custom': '#808080',
                 'gray-light-custom': '#E6E6E6',
+                'orange-ucn': '#E7763D',
+                'orange-dark-ucn': '#C05A2C',
+
+
             },
             fontFamily: {
                 'arial-regular': ['Arial', 'sans-serif'],
